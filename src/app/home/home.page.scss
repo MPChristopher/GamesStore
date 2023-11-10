@@ -1,27 +1,137 @@
-#container {
-  text-align: center;
-
+#Fondo {
+  width: 100%; 
+  height: 100%; 
+  position: relative; 
+  background: linear-gradient(180deg, #13304A 82%, #0D7764 100%)
+}
+#Redes{
+  height: 299px; 
+  padding-top: 31px; 
+  padding-bottom: 23px; 
+  padding-left: 42px; 
+  padding-right: 42px; 
+  left: 38px; top: 478px; 
+  position: absolute; 
+  background: #1E2323; 
+  border-radius: 20px; 
+  overflow: hidden; 
+  flex-direction: column; 
+  justify-content: flex-end; 
+  align-items: flex-start; 
+  gap: 41px; 
+  display: inline-flex;
+}
+#Fondo_Discord{
+  align-self: stretch; 
+  height: 102px; 
+  padding-top: 16px; 
+  padding-bottom: 16px; 
+  padding-left: 14px; 
+  padding-right: 20px; 
+  background: linear-gradient(180deg, white 70%, rgba(116.54, 207.19, 207.19, 0.44) 100%); 
+  border-radius: 30px; 
+  overflow: hidden; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 33px; 
+  display: inline-flex
+}
+#Icon-Dc{
+  width: 70px; 
+  height: 70px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: #5865F2
+}
+#Ub_DC{
+  width: 70px; 
+  height: 70px; 
+  position: relative
+}
+#Letras_Dc{
+  width: 100%; 
+  height: 100%; 
+  margin-top: 1.7rem;
+  color: black; 
+  font-size: 30px; 
+  font-family: Inter; 
+  font-style: italic; 
+  font-weight: 900; 
+  word-wrap: break-word
+}
+#Fondo_Twitter{
+  align-self: stretch; 
+  height: 102px; 
+  padding-top: 16px; 
+  padding-bottom: 16px; 
+  padding-left: 16px; 
+  padding-right: 17px; 
+  background: linear-gradient(180deg, white 63%, rgba(117, 207, 207, 0.44) 100%); 
+  border-radius: 30px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 34px; 
+  display: inline-flex
+}
+#Ub_Tw{
+  width: 70px; 
+  height: 70px; 
+  position: relative; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: flex
+}
+#Letras_Tw{
+  width: 134px; 
+  height: 38px; 
+  color: black; 
+  font-size: 30px; 
+  font-family: Inter; 
+  font-style: italic; 
+  font-weight: 900; 
+  word-wrap: break-word;
+}
+#Cont_Bot{
+  width: 355px; 
+  height: 190px; 
+  left: 38px; 
+  top: 241px; 
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+#Boton_Per{
+  height: 87px; 
+  padding-top: 28px; 
+  padding-bottom: 29px; 
+  padding-left: 17px; 
+  padding-right: 16px; 
+  left: 181px; 
+  top: 0px; 
+  position: absolute; 
+  background: linear-gradient(180deg, #7EAEAB 8%, rgba(158.34, 126.33, 174.25, 0) 100%); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 50px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex
 }
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+#Boton_Vid{
+  height: 87px; 
+  padding-top: 28px; 
+  padding-bottom: 29px; 
+  padding-left: 6px; 
+  padding-right: 6px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute;
+  background: linear-gradient(180deg, #7EAEAB 8%, rgba(158.34, 126.33, 174.25, 0) 100%); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 50px; 
+  overflow: hidden; 
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex;
 }
